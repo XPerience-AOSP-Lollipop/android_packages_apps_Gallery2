@@ -47,5 +47,6 @@ LOCAL_SRC_FILES := filters/gradient.c \
 LOCAL_CFLAGS    += -ffast-math -O3 -funroll-loops -Wno-unused-parameter
 LOCAL_LDLIBS := -llog -ljnigraphics
 LOCAL_ARM_MODE := arm
+LOCAL_CLANG := false
 
 include $(BUILD_SHARED_LIBRARY)
